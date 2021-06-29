@@ -1,10 +1,11 @@
 ﻿
-#include <stdlib.h>
-#include <stdio.h>
+#include "enemy.h"
 
 int main( void )
 {
-	system("pause");
+	Enemy nanashi;
+	nanashi.ShowStatus();
+
 	return 0;
 }
 
